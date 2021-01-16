@@ -97,6 +97,34 @@ function ExamplesNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+
+            
+          <NavItem>
+              <NavLink to="/index" tag={Link}>
+                 Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/index" tag={Link}>
+                 About Us
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/index" tag={Link}>
+                 Our Works
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/index" tag={Link}>
+                 Collaboration
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/index" tag={Link}>
+                 Contact Us
+              </NavLink>
+            </NavItem>
+
             <NavItem>
               <NavLink to="/index" tag={Link}>
                 <i className="nc-icon nc-layout-11" /> Components

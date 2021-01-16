@@ -24,7 +24,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-
+import Example from "views/Home-Page/globalUtil/Modals"
 // index sections
 import Whatwedo from "views/Home-Page/Whatwedo.js"
 function Index() {
@@ -41,6 +41,7 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <Whatwedo/>
+       <DemoFooter/>
         {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />

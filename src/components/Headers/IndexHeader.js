@@ -17,14 +17,18 @@
 
 */
 /*eslint-disable*/
-import React from "react";
+import React, { useState } from 'react';
 
 // reactstrap components
-import { Container,Button } from "reactstrap";
+import { Container,Button,Modal } from "reactstrap";
 
 // core components
 
+
 function IndexHeader() {
+  let[visi,setVisi]=useState(false);
+  
+  let show12=true;
   return (
     <>
       <div
@@ -34,8 +38,7 @@ function IndexHeader() {
             "url(" + require("assets/img/home-page/logo.png") + ")",
             backgroundSize: 'contain',
             backgroundRepeat : 'no-repeat'
-          // width: "10%",
-          // height : "10%"
+         
           }}
       >
         <div className />
@@ -62,9 +65,11 @@ function IndexHeader() {
           }}
         />
         <h6 className="category category-absolute">
-        <Button color="danger" size="lg" >Want to collab with Us?</Button>
-
-         
+       
+        <Button size="lg" color="danger" type="button" href="https://docs.google.com/forms/d/1rG6s-kkvsjR6KnRyeTIdIeJCKYHBllime4n9cvmJKeM/edit" target="_blank">
+        Want to collab with us?
+      </Button>
+      
           <a
             href="https://www.creative-tim.com?ref=pkr-index-page"
             target="_blank"

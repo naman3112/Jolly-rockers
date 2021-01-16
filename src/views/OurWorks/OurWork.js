@@ -7,15 +7,19 @@ import IndexNavbar from "../../components/Navbars/IndexNavbar";
 import Workinfo from './WorkData';
 
 
-
 export default function OurWork(){
 
     return(
       <>
       
       <IndexNavbar />
-      
-    <div style={{paddingTop:"2%", backgroundColor: 'black'}}>
+     
+    <div style={{paddingTop:"2%", backgroundImage:
+            "url(" + require("assets/img/our-work/background.jpg") + ")",
+            backgroundPosition :'center',
+            backgroundSize: 'contain',
+            
+            }}>
 
         <Container fluid justify> 
         <h1 style={{ textDecorationLine: 'underline',    fontWeight : 'bold', color: "#f5da42",margin: "5%",textAlign: 'center'}}>Transforming  <span style={{color: 'white'}}>India</span></h1>

@@ -11,7 +11,7 @@ src={require(`assets/img/our-work/${props.img}` )}
     <CardBody>
         <CardTitle>{props.name}</CardTitle>
         <CardText>{props.short}</CardText>
-        <Button href={props.link} color="danger" size="lg" >Watch Now</Button>
+        <Button target="_blank" href={props.link} color="danger" size="lg" >Watch Now</Button>
 
     </CardBody>
 </Card>

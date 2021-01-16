@@ -26,26 +26,26 @@ import "assets/scss/paper-kit.scss?v=1.2.0";
 import "assets/demo/demo.css?v=1.2.0";
 // pages
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
 import OurWork from "views/OurWorks/OurWork";
+import Tracks from "views/Tracks-By-Jhandupuria/TracksByJhandupuria"
 // others
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/index" render={(props) => <Index {...props} />} />
+      <Route path="/" render={(props) => <Index {...props} />} />
       
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
+      <Route path="/index" render={(props) => <Index {...props} />} />
+
 
 <Route
         path="/our-work"
         render={() => <OurWork/>}
+      />
+
+<Route
+        path="/Tracks"
+        render={() => <Tracks/>}
       />
 
       {/* <Route

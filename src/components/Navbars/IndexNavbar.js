@@ -18,7 +18,10 @@
 */
 import React from "react";
 // nodejs library that concatenates strings
+import { Link } from "react-router-dom";
 import classnames from "classnames";
+import logo from "../../assets/img/home-page/logo.png"
+import you from "../../assets/img/home-page/youtube.png"
 // reactstrap components
 import {
   Button,
@@ -63,15 +66,14 @@ function IndexNavbar() {
   });
   return (
     <Navbar color="danger" className={classnames("fixed-top", "")} expand="lg">
-      <Container>
+      <Container fluid>
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
-            target="_blank"
-            title="Coded by Creative Tim"
+            href="https://www.youtube.com/c/JollyRockers/videos"
+           
           >
-            Paper Kit React
+            <span style={{fontSize: '1.2rem', fontWeight: 'bold'}}>Jolly Rockers Productions </span>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -90,11 +92,24 @@ function IndexNavbar() {
           navbar
           isOpen={navbarCollapse}
         >
-          <Nav navbar>
-            <NavItem>
+          <Nav navbar >
+          <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://www.youtube.com/channel/UCy_vZXon-cfT0F-KI1cE1MQ"
+                target="_blank"
+                title="Follow us on Youtube"
+                
+              >
+              <img src={you} style={{height:'20px', width: '30px',margin:'2%'}} />
+
+                <p className="d-lg-none">Youtube</p>
+              </NavLink>
+            </NavItem>
+          <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="https://twitter.com/JollyRohit1"
                 target="_blank"
                 title="Follow us on Twitter"
               >
@@ -102,10 +117,11 @@ function IndexNavbar() {
                 <p className="d-lg-none">Twitter</p>
               </NavLink>
             </NavItem>
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/JollyRockersss"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -113,47 +129,64 @@ function IndexNavbar() {
                 <p className="d-lg-none">Facebook</p>
               </NavLink>
             </NavItem>
+
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/rohitjolly_jolly_rockers_/"
                 target="_blank"
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
-                target="_blank"
-                title="Star on GitHub"
-              >
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
+            </NavItem>     
+          <NavItem >
+              <NavLink to="/index"   tag={Link}>
+                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Home </span>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
+              <NavLink to="/tracks" tag={Link}>
+              <span style={{fontSize:'16px', fontWeight: 'bold'}}>About Us</span>
               </NavLink>
             </NavItem>
             <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#pablo"
-                target="_blank"
-                disabled
-              >
-                Upgrade to Pro
-              </Button>
+              <NavLink to="/our-work"   tag={Link}>
+              <span style={{fontSize:  '17px', fontWeight: 'bold'}}>Our Work</span>
+              </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink 
+             
+              to="/tracks"   tag={Link}
+                >              
+                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Tracks</span>
+           </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink 
+              target="_blank"
+              href="https://docs.google.com/forms/d/1rG6s-kkvsjR6KnRyeTIdIeJCKYHBllime4n9cvmJKeM/viewform?edit_requested=true">
+              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Collaboration</span>
+           </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink 
+              target="_blank"
+              href="https://docs.google.com/forms/d/1VHoHI2LnyjsW5cijIGivZo2n4odSEe26ubifu7nzvKA/viewform?edit_requested=true">
+              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Feedback</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/tracks"   tag={Link} >
+              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Contact Us</span>
+              </NavLink>
+            </NavItem>
+
+            
+            
+          
           </Nav>
         </Collapse>
       </Container>
