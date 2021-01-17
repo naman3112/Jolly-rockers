@@ -35,7 +35,7 @@ const carouselItems = [
   ];
 export default function Whatwedo(){
     return (
-      <Container fluid style={{textAlign : 'center', backgroundColor: "black"}} >
+      <Container fluid style={{textAlign : 'center', backgroundColor: "black",marginBottom: '0%',paddingBottom: '0%'}} >
           <Row style={{backgroundColor: "black"}}>
             <Col md={4} style={{backgroundColor: "black", fontWeight: "bold"}}>
             <h1 style={{color: "white", fontWeight: "bold", marginLeft: "10%"}}>What we do?</h1>
@@ -50,7 +50,7 @@ export default function Whatwedo(){
           </Row>
           <h1 style={{fontWeight : 'bold', color: "#f5da42",marginBottom: "2%"}}>You can <span style={{color: 'white'}}>stream</span> our music on  </h1>
 
-        <Row style={{margin: "2%"}}>
+        <Row style={{margin: "2%",marginBottom:'0%'}}>
           <Col md={2} sm={12} style={{margin: '2%'}} >
            <a href="https://spoti.fi/35Ha4qh" target="_blank"> 
            <img  style ={styleimg} src= {require('../../assets/img/home-page/spotify.png')} />

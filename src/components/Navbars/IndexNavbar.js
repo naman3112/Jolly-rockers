@@ -23,7 +23,7 @@ import classnames from "classnames";
 import you from "../../assets/img/home-page/youtube.png"
 // reactstrap components
 import {
-  Button,
+
   Collapse,
   NavbarBrand,
   Navbar,
@@ -159,7 +159,7 @@ function IndexNavbar() {
               <NavLink 
                 to="/tracks/songs"   tag={Link}
                 >              
-                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Tracks</span>
+                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Our Tracks</span>
            </NavLink>
             </NavItem>
             <NavItem>

@@ -5,7 +5,7 @@ import { Container,
 import OurWorkWithData from './WorkinWithData';
 import IndexNavbar from "../../components/Navbars/IndexNavbar";
 import Workinfo from './WorkData';
-
+import Footer from '../../components/Footers/DemoFooter';
 
 export default function OurWork(){
 
@@ -132,6 +132,7 @@ export default function OurWork(){
 
 
         </Container>
+        <Footer/>
       </div>
     </>
 

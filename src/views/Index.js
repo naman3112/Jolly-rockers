@@ -23,7 +23,7 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import Footer from "../components/Footers/DemoFooter"
 // index sections
 import Whatwedo from "views/Home-Page/Whatwedo.js"
 function Index() {
@@ -40,25 +40,9 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <Whatwedo/>
-       <DemoFooter/>
-        {/* <SectionButtons />
-        <SectionNavbars />
-        <SectionNavigation />
-        <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavaScript />
-        <SectionCarousel />
-        <SectionNucleoIcons />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
-        <DemoFooter /> */}
-
-
 
       </div>
+      <Footer/>
     </>
   );
 }

@@ -18,47 +18,61 @@
 */
 /*eslint-disable*/
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Row, Container } from "reactstrap";
 
 function DemoFooter() {
   return (
-    <footer className="footer footer-black">
-      <Container  style={{backgroundColor:"balck"}}>
-        <Row  style={{backgroundColor:"balck"}}>
-          <nav className="footer-nav">
+    <footer className="footer footer-black bg-danger">
+      <Container >
+        <Row >
+          <nav className="footer-nav " style={{textColor: 'white'}}>
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
-                  target="_blank"
+                
+                  href="/index"
                 >
-                  Creative Tim
+                  Home 
                 </a>
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
-                  target="_blank"
+                  href="/tracks/songs"
+                  
                 >
-                  Blog
+                  Our tracks
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
-                  target="_blank"
+                  href="/tracks"
                 >
-                  Licenses
+                  About Us
+                </a>
+               
+              </li>
+              <li>
+                <a
+                
+                  href="/our-works"
+                >
+                  Our Work
                 </a>
               </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
+         
+             
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+            <a className="copyright-name" href="https://www.linkedin.com/in/naman-arora-462465139/">
+              
+              © {new Date().getFullYear()}, made by Naman Arora{" "}
+              </a>
+             
             </span>
           </div>
         </Row>

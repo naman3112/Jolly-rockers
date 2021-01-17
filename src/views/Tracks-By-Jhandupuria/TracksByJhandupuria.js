@@ -7,7 +7,7 @@ import {
 import Intro from "./Intro";
 import IndexNavbar from "../../components/Navbars/IndexNavbar";
 import AllTracks from './AllTracks';
-
+import Footer from '../../components/Footers/DemoFooter'
 export default function TracksByJhandupuria() {
 
     return (
@@ -37,8 +37,9 @@ export default function TracksByJhandupuria() {
                             <AllTracks/>
                         </Col>
                     </Row>
-
+                    
                 </Container>
+                <Footer/>
             </div>
         </>
 
