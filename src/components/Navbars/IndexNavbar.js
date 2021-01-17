@@ -20,7 +20,6 @@ import React from "react";
 // nodejs library that concatenates strings
 import { Link } from "react-router-dom";
 import classnames from "classnames";
-import logo from "../../assets/img/home-page/logo.png"
 import you from "../../assets/img/home-page/youtube.png"
 // reactstrap components
 import {
@@ -158,8 +157,7 @@ function IndexNavbar() {
             </NavItem>
             <NavItem>
               <NavLink 
-             
-              to="/tracks"   tag={Link}
+                to="/tracks/songs"   tag={Link}
                 >              
                 <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Tracks</span>
            </NavLink>

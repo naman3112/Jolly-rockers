@@ -1,7 +1,4 @@
 import React, { Component }  from 'react';
-//import "@fortawesome/fontawesome-free/css/all.min.css";
-import FontAwesome from 'react-fontawesome'
-//import faStyles from 'font-awesome/css/font-awesome.css'
 import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
 import { Container,Button,
     Row,
@@ -46,7 +43,7 @@ Our mission is to come up with some exquisite piece of work that entertains ever
       </Button>
 <br/>
 <h4> Let's collaborate to make some more aweosme projects</h4>
-      <Button  size="lg" color="danger" type="button">
+      <Button href="https://docs.google.com/forms/d/1rG6s-kkvsjR6KnRyeTIdIeJCKYHBllime4n9cvmJKeM/viewform?edit_requested=true" size="lg" color="danger" type="button">
         Want to collab with us?
       </Button>
       <h2 style={{fontWeight: 'bold'}}> Contact Us</h2>

@@ -3,7 +3,7 @@ import Track from './Track'
 import warvsswag from "../../assets/img/home-page/warvsswag.jpg";
 import adhithdy from "../../assets/img/home-page/adhithdy.jpeg";
 import sunheriye from "../../assets/img/tracks-by-jhandupuria/sunHeriye.jpg"
-import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
+import { Card} from 'reactstrap';
 import { Container,Button,
     Row,
     Col } from 'reactstrap';

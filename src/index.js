@@ -18,7 +18,9 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch
+} from "react-router-dom";
+
 
 // styles
 import "assets/css/bootstrap.min.css";
@@ -29,34 +31,29 @@ import Index from "views/Index.js";
 import OurWork from "views/OurWorks/OurWork";
 import Tracks from "views/Tracks-By-Jhandupuria/TracksByJhandupuria"
 // others
+import ScrollToTop from "./views/ScrollToTop"
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" render={(props) => <Index {...props} />} />
+     <Route path="/index" render={(props) => <Index {...props} />} />
       
-      <Route path="/index" render={(props) => <Index {...props} />} />
-
-
-<Route
-        path="/our-work"
-        render={() => <OurWork/>}
-      />
-
-<Route
-        path="/Tracks"
-        render={() => <Tracks/>}
-      />
-
-      {/* <Route
-        path="/profile-page"
-        render={(props) => <ProfilePage {...props} />}
-      />
       <Route
-        path="/register-page"
-        render={(props) => <RegisterPage {...props} />}
-      /> */}
-      
+        path="/our-work"
+        render={() => <OurWork />}
+      />
+
+      <Route path="/tracks/songs">
+        <ScrollToTop scroll="bottom" />
+        <Tracks />
+      </Route>
+
+      <Route path="/tracks">
+        <ScrollToTop scroll="top" />
+        <Tracks />
+      </Route>
+
+      <Route path="/" render={(props) => <Index {...props} />} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

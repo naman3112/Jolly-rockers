@@ -36,7 +36,7 @@ return (
 <img style={{marginRight :'1%',height:"7%", width: "20%"}} src={apple} />
 </a>
 <a href="https://bit.ly/2KcZAra" >
-<img style={{marginLeft :'3%',height:"15%", width: "20%"}} src={savan} />
+<img style={{marginLeft :'3%', marginRight: '2%',height:"15%", width: "20%"}} src={savan} />
 </a>
 <a href="https://bit.ly/35FNMFs" target="_blank"> 
             <img style ={styleimg} src= {require('../../assets/img/home-page/youtube.jpg')} />
