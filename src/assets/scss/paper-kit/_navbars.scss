@@ -56,12 +56,12 @@
               font-weight: 600;
               font-size: 12px;
               line-height: 1.5em;
-              padding: 15px 0;
+             
             }
          }
         .nav-item .nav-link.btn {
             margin: $navbar-margin-a-btn;
-            padding: 9px;
+            padding: 3px;
 
          }
         .nav-item .nav-link [class^="fa"] {
@@ -101,7 +101,7 @@
         &.show{
             & .navbar-nav{
                 & .nav-item{
-                    padding-right: 10px;
+                    padding-right: 6px;
                 }
             }
         }
@@ -173,12 +173,12 @@
         .brand{
             font-size: 18px;
             color: #FFFFFF;
-            line-height: 20px;
+            line-height: 10px;
             float: left;
-            margin-left: 10px;
+            margin-left: 6px;
             margin-top: 5px;
-            width: 75px;
-            height: 50px;
+            width: '2%';
+            height: '1%';
             }
     }
     .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar,

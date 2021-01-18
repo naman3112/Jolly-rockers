@@ -3011,7 +3011,7 @@ License - nucleoapp.com/license/
 
 .navbar {
   border: 0;
-  font-size: 14px;
+  font-size: 12px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
@@ -3019,9 +3019,9 @@ License - nucleoapp.com/license/
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15); }
   .navbar .navbar-brand {
     font-weight: 600;
-    margin: 5px 0px;
-    padding: 20px 15px;
-    font-size: 14px;
+    margin: 3px 0px;
+    padding: 10px 12px;
+    font-size: 11px;
     color: #66615B;
     text-transform: uppercase; }
   .navbar .navbar-toggler:focus {
@@ -3032,8 +3032,8 @@ License - nucleoapp.com/license/
     background: #66615B !important; }
   .navbar .navbar-nav .nav-item .nav-link {
     line-height: 1.6;
-    margin: 15px 3px;
-    padding: 10px 15px;
+    margin: 8px 3px;
+    padding: 7px 8px;
     opacity: .8;
     font-size: 12px;
     text-transform: uppercase;
@@ -3043,9 +3043,9 @@ License - nucleoapp.com/license/
       margin: 0px 0px;
       text-transform: uppercase;
       font-weight: 600;
-      font-size: 12px;
-      line-height: 1.5em;
-      padding: 15px 0; }
+      font-size: 10px;
+      line-height: 1.3em;
+      padding: 8px 0; }
   .navbar .navbar-nav .nav-item .nav-link.btn {
     margin: 15px 3px;
     padding: 9px; }

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
+import React  from 'react';
+import { Card, CardBody, CardText, CardImg } from 'reactstrap';
 import {
     Container, Button,
     Row,
@@ -25,17 +25,14 @@ Our mission is to come up with some exquisite piece of work that entertains ever
                                 <CardText style={{ fontWeight: 'bold', fontSize: '2rem' }}> ਨਾਨਕ ਨਾਮ ਚੜਦੀ ਕਲਾ, ਤੇਰੇ ਭਾਣੇ ਸਰਬਤ ਦਾ ਭਲਾ ।। Waheguru 🙏🏻</CardText>
                                 <h3 style={{ fontWeight: 'bold' }} >Follow us on </h3>
 
-                                <a href="https://twitter.com/CreativeTim?ref=creativetim" style={{ margin: '4%' }} >
+                                <a href="https://twitter.com/JollyRohit1" style={{ margin: '4%' }} >
                                     <i className="fa-3x fa fa-twitter" />
                                 </a>
-                                <a href="https://twitter.com/CreativeTim?ref=creativetim" style={{ margin: '4%' }}>
+                                <a href="https://www.facebook.com/JollyRockersss" style={{ margin: '4%' }}>
                                     <i className="fa  fa-3x fa-facebook-square" />
                                 </a>
-                                <a href="https://twitter.com/CreativeTim?ref=creativetim" style={{ margin: '4%' }}>
+                                <a href="https://www.instagram.com/rohitjolly_jolly_rockers_/" style={{ margin: '4%' }}>
                                     <i className="fa fa-3x fa-instagram" />
-                                </a>
-                                <a href="https://twitter.com/CreativeTim?ref=creativetim" style={{ margin: '4%' }}>
-                                    <i className="fa fa-3x fa-twitter" />
                                 </a>
                                 <h4>We are now taking bookings for show</h4>
                                 <Button href="https://docs.google.com/forms/d/1DyHOq3MYiYu95NJqYe289uI0uscrP5CFi3H5y6nEXhY/edit" size="lg" color="danger" type="button">

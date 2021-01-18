@@ -72,7 +72,7 @@ function IndexNavbar() {
             href="https://www.youtube.com/c/JollyRockers/videos"
            
           >
-            <span style={{fontSize: '1.2rem', fontWeight: 'bold'}}>Jolly Rockers Productions </span>
+            <span style={{fontSize: '1.1rem', fontWeight: 'bold'}}>Jolly Rockers Productions </span>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -142,43 +142,43 @@ function IndexNavbar() {
             </NavItem>     
           <NavItem >
               <NavLink to="/index"   tag={Link}>
-                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Home </span>
+                <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Home </span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/tracks" tag={Link}>
-              <span style={{fontSize:'16px', fontWeight: 'bold'}}>About Us</span>
+              <span style={{fontSize:'15px', fontWeight: 'bold'}}>About Us</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/our-work"   tag={Link}>
-              <span style={{fontSize:  '17px', fontWeight: 'bold'}}>Our Work</span>
+              <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Our Work</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink 
                 to="/tracks/songs"   tag={Link}
                 >              
-                <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Our Tracks</span>
+                <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Our Tracks</span>
            </NavLink>
             </NavItem>
             <NavItem>
               <NavLink 
               target="_blank"
               href="https://docs.google.com/forms/d/1rG6s-kkvsjR6KnRyeTIdIeJCKYHBllime4n9cvmJKeM/viewform?edit_requested=true">
-              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Collaboration</span>
+              <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Collaboration</span>
            </NavLink>
             </NavItem>
             <NavItem>
               <NavLink 
               target="_blank"
               href="https://docs.google.com/forms/d/1VHoHI2LnyjsW5cijIGivZo2n4odSEe26ubifu7nzvKA/viewform?edit_requested=true">
-              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Feedback</span>
+              <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Feedback</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/tracks"   tag={Link} >
-              <span style={{fontSize:  '18px', fontWeight: 'bold'}}>Contact Us</span>
+              <span style={{fontSize:  '15px', fontWeight: 'bold'}}>Contact Us</span>
               </NavLink>
             </NavItem>
 

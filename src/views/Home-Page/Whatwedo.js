@@ -40,8 +40,9 @@ export default function Whatwedo(){
             <Col md={4} style={{backgroundColor: "black", fontWeight: "bold"}}>
             <h1 style={{color: "white", fontWeight: "bold", marginLeft: "10%"}}>What we do?</h1>
               <h4 style={{fontWeight: "bold", color:"white", marginLeft: "10%"}}>
-              Jolly Rockers Means “Free Style Vlogger , Lyricist & Singer ” Creating Something New & unique in Every Category of Masses & Classes &  we are into - Social work , Food Vlogs , Pubic Debates , Interactions , Reaction Videos , Music & Dance, Always Respect Others & I am Here for Good Cause
-              
+              Jolly Rockers Productions is a dynamic production house that have a strong motivation towards creating awesome projects that includes songs, lyrics, compositions and interviews. It also extends its hand in upliftment society by highlighting the current social issues. Besides this we give ample amount of opoortunities to the budding artists.
+        <br />
+Our mission is to come up with some exquisite piece of work that entertains every masses and classes.
               </h4>
             </Col>
             <Col md={8} sm={12}>
