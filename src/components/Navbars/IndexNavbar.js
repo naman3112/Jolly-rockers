@@ -69,7 +69,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="https://www.youtube.com/c/JollyRockers/videos"
+            href="https://youtube.com/c/JollyRockers"
            
           >
             <span style={{fontSize: '1.1rem', fontWeight: 'bold'}}>Jolly Rockers Productions </span>
@@ -95,7 +95,7 @@ function IndexNavbar() {
           <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.youtube.com/channel/UCy_vZXon-cfT0F-KI1cE1MQ"
+                href="https://youtube.com/c/JollyRockers"
                 target="_blank"
                 title="Follow us on Youtube"
                 

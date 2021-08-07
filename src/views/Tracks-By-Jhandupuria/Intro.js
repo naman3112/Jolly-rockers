@@ -34,12 +34,12 @@ Our mission is to come up with some exquisite piece of work that entertains ever
                                 <a href="https://www.instagram.com/rohitjolly_jolly_rockers_/" style={{ margin: '4%' }}>
                                     <i className="fa fa-3x fa-instagram" />
                                 </a>
-                                <h4>We are now taking bookings for show</h4>
+                                <h4>We are now taking bookings for shows on various ocassions like festivals</h4>
                                 <Button href="https://docs.google.com/forms/d/1DyHOq3MYiYu95NJqYe289uI0uscrP5CFi3H5y6nEXhY/edit" size="lg" color="danger" type="button">
                                     Book Now!
       </Button>
                                 <br />
-                                <h4> Let's collaborate to make some more aweosme projects</h4>
+                                <h4> Let's collaborate to make some more awesome projects</h4>
                                 <Button href="https://docs.google.com/forms/d/1rG6s-kkvsjR6KnRyeTIdIeJCKYHBllime4n9cvmJKeM/viewform?edit_requested=true" size="lg" color="danger" type="button">
                                     Want to collab with us?
       </Button>

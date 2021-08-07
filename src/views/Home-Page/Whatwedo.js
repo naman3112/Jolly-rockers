@@ -37,9 +37,9 @@ export default function Whatwedo(){
     return (
       <Container fluid style={{textAlign : 'center', backgroundColor: "black",marginBottom: '0%',paddingBottom: '0%'}} >
           <Row style={{backgroundColor: "black"}}>
-            <Col md={4} style={{backgroundColor: "black", fontWeight: "bold"}}>
-            <h1 style={{color: "white", fontWeight: "bold", marginLeft: "10%"}}>What we do?</h1>
-              <h4 style={{fontWeight: "bold", color:"white", marginLeft: "10%"}}>
+            <Col md={4} sm={12} style={{backgroundColor: "black", fontWeight: "bold",marginBottom:'4%'}}>
+            <h1 style={{color: "white", fontWeight: "bold", marginLeft: "6%" ,marginRight:"3%"}}>What we do?</h1>
+              <h4 style={{fontWeight: "bold", color:"white", marginLeft: "6%",marginRight:"3%"}}>
               Jolly Rockers Productions is a dynamic production house that have a strong motivation towards creating awesome projects that includes songs, lyrics, compositions and interviews. It also extends its hand in upliftment society by highlighting the current social issues. Besides this we give ample amount of opoortunities to the budding artists.
         <br />
 Our mission is to come up with some exquisite piece of work that entertains every masses and classes.
